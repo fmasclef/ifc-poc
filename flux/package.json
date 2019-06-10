@@ -1,0 +1,61 @@
+{
+  "name": "ifc",
+  "version": "1.0.0",
+  "description": "Inter Frames Communication POC",
+  "main": "",
+  "scripts": {
+    "app": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fmasclef/ifc-poc.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "François Masclef",
+    "email": "francois.masclef@gmail.com"
+  },
+  "engines": {
+    "node": ">=11.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/plugin-proposal-function-bind": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "@types/react": "*",
+    "acorn": "^6.0.0",
+    "babel-loader": "*",
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "*",
+    "css-loader": "*",
+    "flux": "*",
+    "html-webpack-exclude-assets-plugin": "*",
+    "html-webpack-plugin": "*",
+    "mini-css-extract-plugin": "*",
+    "node-sass": "*",
+    "optimize-css-assets-webpack-plugin": "*",
+    "postcss": "*",
+    "postcss-loader": "*",
+    "postcss-preset-env": "*",
+    "pug": "*",
+    "pug-loader": "*",
+    "query-string": "*",
+    "raw-loader": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "sass-loader": "*",
+    "terser-webpack-plugin": "*",
+    "url-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*",
+    "webpack-require-http": "*",
+    "webpack-subresource-integrity": "*"
+  },
+  "dependencies": {}
+}

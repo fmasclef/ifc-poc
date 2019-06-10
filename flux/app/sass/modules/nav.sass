@@ -1,0 +1,74 @@
+.nav
+  background-color: $color-nav-background
+  border-bottom: 1px solid darken($color-page-background, 10%)
+  color: $color-nav-text
+  display: flex
+  flex-direction: row
+  height: 50px
+  left: 0
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 100
+
+.nav > .nav-brand
+  align-items: center
+  display: flex
+  flex: 0
+  flex-direction: row
+  margin: auto .4em
+
+  img
+    height: 40px
+    width: 40px
+
+.nav > input
+  display: none
+
+.nav > .nav-content
+  flex: 1
+  flex-direction: row
+  display: flex
+  justify-content: space-between
+
+.nav-links
+  align-items: center
+  flex-direction: row
+  margin: auto .5em
+  display: flex
+  flex: 1
+
+.nav-links > a
+  color: $color-nav-link
+  font-size: .8em
+  display: inline
+  font-family: 'Lato'
+  margin-left: 1em
+  margin-right: 1em
+  text-decoration: none
+  text-transform: uppercase
+  white-space: nowrap
+
+  &:focus,
+  &:hover
+    background-color: lighten($color-nav-background, 10%)
+    color: $color-nav-link-hover
+    cursor: pointer
+    font-weight: bold
+    outline: 0
+    text-decoration: none
+
+    &::after
+      opacity: .22
+
+  &:active
+    background-color: darken($color-nav-background, 10%)
+    color: $color-nav-link
+
+    &::after
+      opacity: .32
+
+  &:disabled
+    background-color: darken($color-nav-background, 30%)
+    color: $color-grey-light
+    cursor: not-allowed

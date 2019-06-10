@@ -1,0 +1,7 @@
+
+Inter Frames Communication POC
+
+This  proof-of-concept  will  show  you  how to sync Flux based  stores on  two
+browser instances. This makes use of the StorageEvent API.
+
+I ❤️ you.
